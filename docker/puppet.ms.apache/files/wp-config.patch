@@ -1,0 +1,11 @@
+--- wp-config.php       2015-03-01 23:25:36.000000000 +0000
++++ wp-config.php.new   2015-03-03 01:11:18.990272969 +0000
+@@ -45,7 +45,7 @@
+ define('DB_PASSWORD', 'password');
+
+ /** MySQL hostname */
+-define('DB_HOST', 'localhost');
++define('DB_HOST', $_ENV['DB_PORT_3306_TCP_ADDR']);
+
+ /** Database Charset to use in creating database tables. */
+ define('DB_CHARSET', 'utf8');

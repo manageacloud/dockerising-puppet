@@ -4,7 +4,7 @@ How to create and orchestrate Docker containers using Puppet Enterprise
 
 ## Docker
 
-The Makefile contains more information about how to work with the container.
+Makefile(s) contains more information about how to work with the container.
 
  - docker/puppet-all-in-one - Creates a Wordpress application with the following services: apache2, mysql and ssh.
  - docker/puppet.ms.apache - Creates a microservice with apache2
